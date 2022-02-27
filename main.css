@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 40px;
+    border: 4px solid green;
+
+}
+button:hover{
+    background-color: green;
+}
+
+/* for the picture in picture styling */
+#container:picture-in-picture {
+    box-shadow: 0 0 0 5px red;
+    top: 20px;
+   
+  }
